@@ -1,0 +1,26 @@
+git checkout -b backend-test_Testovich
+git push origin backend-test_Testovich
+
+
+
+git checkout -b backend-test-testovich2
+git push origin backend-test-testovish2
+
+backend-test_Testovich+backend-test-testovich2=backend
+
+Frontend+Fronted2=Frontend
+
+Backend+Frontend=Release
+
+Release = Main
+
+
+
+
+
+
+backkend1 + backend2 = backend (auto)
+
+Backend+Frontend=Release(Test_GLOBAL)
+
+Release = Main
