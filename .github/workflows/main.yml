@@ -1,6 +1,6 @@
 name: Automated API tests
 on:
-  push:
+  pull_request:
     branches:
     - main
     - anna_test
@@ -14,7 +14,7 @@ jobs:
         run: |
           curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
       - name: Login to Postman CLI
-        run: postman login --with-api-key ${{secrets.POSTMAN_API_KEY}}
+        run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
       - name: Run API tests
         run: |
-          postman collection run "24371688-803c9bf5-2198-41b4-a300-4dff364a641d" -e "24371688-22ef7d6f-6c54-4a6f-911b-7d4b2cd27147"
+          postman collection run "24371688-803c9bf5-2198-41b4-a300-4dff364a641d" -e "24371688-6613cc79-ceeb-4037-bbf0-47dda4697726"
